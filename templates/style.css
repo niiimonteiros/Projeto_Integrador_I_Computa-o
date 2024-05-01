@@ -1,0 +1,342 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url(imagens/fundo.jpg);
+    font-family: nexa;
+}
+.container-header {
+    display:flex;
+    flex-direction: column;
+}
+.icon {
+    width: 120px;
+    height: 120px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.titulo {
+    margin-bottom: 90px;
+    margin-top: -140px;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    font-weight: 500;
+}
+.wrapper-header {
+    margin-top: -70px;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    color: #1096c9;
+    font-size: 23px;
+}
+hr {
+    border-width: 1px;
+}
+.container-main {
+    margin-top: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+.caixadetexto {
+    align-content: center;
+    background-color: white;
+    border-radius: 15px;
+    height: 300px;
+    width: 650px;
+}
+.texto {
+    color: #1096c9;
+    font-size: 22px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.wrapper-footer {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagemceu {
+    border-radius: 10px;
+}
+.atividade {
+    color: #1096c9;
+    margin-top: 95px;
+    margin-bottom: -5px;
+}
+.botao {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+.botao2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    margin-bottom: 30px;
+}
+button {
+    font-weight: 500;
+    font-family: nexa;
+    border: 2px solid #1096c9;
+    cursor:pointer;
+    transition-duration: 0.4s;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;  
+    border-radius: 15px;
+    color:#1096c9;
+}
+button:hover {
+    background-color: #1096c9;
+    color: white;
+    border: 2px solid #1096c9;
+}
+@media (max-width: 1650px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    .titulo {
+        font-size: 43px;
+        margin-bottom: 90px; 
+    }
+    .wrapper-header {
+        margin-top: -70px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .container-main {
+        margin-top: 85px;
+    }
+    .caixadetexto {
+        height: 16%;
+        width: 35%;
+    }
+    .texto {
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .atividade {
+        margin-top: 85px;
+    }
+    .wrapper-footer {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    button {
+        font-size: 19px;
+        height: 45px;
+        width: 140px;
+    }
+    .botao2 {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 1370px) {
+    .titulo {
+        margin-top: -120px;
+        font-size: 40px;
+        margin-bottom: 70px;
+    }
+    .hr-header {
+        margin-top: 20px;
+    }
+    .info {
+        font-size: 20px;
+    }
+    .icon {
+        width: 8%;
+        height: 8%;
+    }
+    .container-main {
+        margin-top: 60px;
+    }
+    .caixadetexto {
+        height: 6%;
+        width: 35%;
+    }
+    .texto {
+        font-size: 18px;
+    }
+    .atividade {
+        font-size: 20px;
+        margin-top: 60px;
+    }
+    button {
+        font-size: 18px;
+        height: 40px;
+        width: 130px;  
+    }
+    .botao2 {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 1300px) {
+    .titulo {
+        margin-top: -100px;
+        font-size: 35px;
+    }
+    .icon {
+        width: 7%;
+        height: 7%;
+    }
+    .info {
+        font-size: 19px;
+    }
+    .container-main {
+        flex-direction: column;
+        margin-top: 40px;
+        row-gap: 20px;
+    }
+    .texto {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .caixadetexto {
+        width: 55%;
+    }
+    .imagemceu {
+        width: 45%;
+    }
+    .atividade {
+        font-size: 19px;
+        margin-top: 40px;
+    }
+    .botao2 {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 900px) {
+    .wrapper-footer {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .titulo {
+        font-size: 32px;
+        margin-top: -100px;
+    }
+    .icon {
+        margin-top: 40px;
+    }
+    .info {
+        font-size: 17px;
+    }
+    .caixadetexto {
+        height: 6%;
+        width: 50%;
+    }
+    .texto {
+        font-size: 16px;
+    }
+    .wrapper-header {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .atividade {
+        font-size: 17px;
+    }
+    button {
+        font-size: 16px;
+        height: 35px;
+        width: 90px;  
+    }
+    .botao2 {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 780px) {
+    .titulo {
+        margin-top: -80px;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .caixadetexto {
+        height: 6%;
+        width: 60%;
+    }
+    .imagemceu {
+        width: 45%;
+    }
+    .botao2 {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 600px) {
+    .titulo {
+        margin-top: -95px;
+        font-size: 31px;
+    }
+    .icon { 
+        margin-top: 65px;
+        width: 8%;
+    }
+    .wrapper-header {
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .info {
+        font-size: 14px;
+    }
+    .container-main {
+        margin-top: 30px;
+    }
+    .caixadetexto {
+        height: 6%;
+        width: 60%;
+    }
+    .texto {
+        font-size: 13px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+    .container-main {
+        row-gap: 30px;
+    }
+    .imagemceu {
+        width:45%;
+    }
+    .atividade {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    .wrapper-footer {
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .botao {
+        column-gap: 50px;
+    }
+    .botao2 {
+        column-gap: 50px;
+        margin-bottom: 30px;
+    }
+    button {
+        width: 70px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 400px) {
+    .icon {
+        margin-left: 20px;
+    }
+}
